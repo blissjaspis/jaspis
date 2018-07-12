@@ -1,6 +1,9 @@
 module.exports = {
     title: 'Bliss Jaspis',
     description: 'Blog pribadi dalam menuangkan keluh kesah di dalam dunia Computer Science.',
+    markdown: {
+        lineNumbers: true
+    },
     themeConfig: {
         nav: [
             {
