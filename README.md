@@ -1,7 +1,6 @@
-# Bliss Jaspis
-
-Ini adalah website pribadi penyalur tulisan di dunia maya saya. :')
-
-[Home](/)
-[Haskell](/haskell/)
-[Haskell One](/haskell/one.md)
+---
+home: true
+actionText: About Me
+actionLink: https://bliss.jaspis.me
+footer: Copyright © 2018 Bliss Jaspis
+---
