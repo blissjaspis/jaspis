@@ -22,5 +22,10 @@ module.exports = {
                 text: 'Dart', link: '/dart/'
             }
         ],
+        docsRepo: 'blissjaspis/jaspis',
+        docsDir: '',
+        docsBranch: 'master',
+        editLinks: true,
+        editLinkText: 'Help us improve this page!'
     },
 }
