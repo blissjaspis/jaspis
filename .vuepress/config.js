@@ -1,4 +1,7 @@
 module.exports = {
+    head: [
+        ['meta', { name: 'google-site-verification', content: 'vKKKEekBy7PlRRZQR_PjySyjQqhdxsw_XBSYXMmiRvU'}]
+    ],
     title: 'Bliss Jaspis',
     description: 'Blog pribadi dalam menuangkan keluh kesah di dalam dunia Computer Science.',
     markdown: {
