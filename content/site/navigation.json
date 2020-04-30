@@ -1,0 +1,30 @@
+{
+  "headerNavigation": [
+    {
+      "name": "Home",
+      "link": "/",
+      "external": false
+    },
+    {
+      "name": "About",
+      "link": "https://bliss.jaspis.me",
+      "external": true
+    },
+    {
+      "name": "Getting started",
+      "link": "/category/getting-started",
+      "external": false
+    }
+  ],
+  "footerNavigation": [{
+      "name": "Latest Posts",
+      "link": "/",
+      "external" : false
+    },
+    {
+      "name": "RSS",
+      "link": "/rss.xml",
+      "external": false
+    }
+  ]
+}
