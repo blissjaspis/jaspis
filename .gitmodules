@@ -1,0 +1,3 @@
+[submodule "jaspis.me"]
+	path = jaspis.me
+	url = git@github.com:blissjaspis/jaspis.me.git
