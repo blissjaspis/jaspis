@@ -9,6 +9,7 @@ module.exports = {
   siteDescription: 'Blog pribadi tentang curahan dunia programming.',
   siteUrl: 'http://localhost:9000',
   port: 9000,
+  outputDir: 'jaspis.me',
   plugins: [
     {
       use: 'gridsome-plugin-tailwindcss',
