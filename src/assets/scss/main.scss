@@ -112,6 +112,13 @@ ul {
     @apply relative;
   }
 
+  .post-card-category {
+    @apply text-blue-800;
+  }
+  .post-card-category:hover {
+    @apply text-blue-500;
+  }
+
   .post-card-title {
     @apply leading-none;
     @apply text-2xl;
@@ -121,6 +128,10 @@ ul {
   .post-card-excerpt {
     @apply font-serif;
   }
+}
+
+.blogpost-excerpt {
+  color: #5e6d82;
 }
 
 .author-list-item:nth-child(n+2) {
@@ -168,6 +179,17 @@ body[data-theme="dark"] {
     background-color: #191b1f;
     @apply text-gray-300;
 
+    .blogpost-excerpt {
+      @apply text-gray-500;
+    }
+
+    .post-card-category {
+      @apply text-blue-500;
+    }
+    .post-card-category:hover {
+      @apply text-blue-800;
+    }
+    
     .post-content-text {
       @apply text-gray-300;
     }

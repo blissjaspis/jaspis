@@ -5,6 +5,11 @@ var flattenColorPalette = require('tailwindcss/lib/util/flattenColorPalette').de
 
 
 module.exports = {
+  purge: [
+    './src/**/*.html',
+    './src/**/*.vue',
+    './src/**/*.jsx',
+  ],
   theme: {
     borderWidth: {
       default: '1px',
@@ -158,7 +163,7 @@ module.exports = {
         },
       })
     },
-    require('tailwindcss-tables')(),
-    require('tailwindcss-gradients')
+    // require('tailwindcss-tables')(),
+    // require('tailwindcss-gradients')
   ]
 }

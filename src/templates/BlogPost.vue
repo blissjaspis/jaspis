@@ -4,13 +4,12 @@
       <div class="lg:mx-32 md:mx-16 sm:mx-8 mx-4 pt-8">
         <section class="post-header container mx-auto px-0 mb-4 border-b">
           <span class="font-medium uppercase tracking-wide text-sm">
-            <g-link
-              :to="$page.blog.category.path"
-              class="text-blue-800 hover:text-blue-500 hover:underline"
-            >{{ $page.blog.category.title }}</g-link>
+            <g-link :to="$page.blog.category.path" class="post-card-category hover:underline"
+              >{{ $page.blog.category.title }}
+            </g-link>
           </span>
           <h1 class="text-5xl font-medium leading-none mt-0">{{ $page.blog.title}}</h1>
-          <div class="text-2xl pt-4 pb-10 text-gray-700 font-serif" v-html="$page.blog.excerpt"></div>
+          <div class="text-2xl pt-4 pb-10 blogpost-excerpt mt-3 font-serif" v-html="$page.blog.excerpt"></div>
         </section>
         <section class="post-author-list mb-10 mx-0">
           <div class="flex items-center">
