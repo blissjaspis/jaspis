@@ -3,13 +3,13 @@
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden pt-24">
       <div class="lg:mx-32 md:mx-16 sm:mx-8 mx-4 pt-8">
         <section class="post-header container mx-auto px-0 mb-4 border-b">
-          <span class="font-medium uppercase tracking-wide text-sm">
+          <span class="font-medium uppercase tracking-wide text-xs sm:text-sm">
             <g-link :to="$page.blog.category.path" class="post-card-category hover:underline"
               >{{ $page.blog.category.title }}
             </g-link>
           </span>
-          <h1 class="text-5xl font-medium leading-none mt-0">{{ $page.blog.title}}</h1>
-          <div class="text-2xl pt-4 pb-10 blogpost-excerpt mt-3 font-serif" v-html="$page.blog.excerpt"></div>
+          <h1 class="text-3xl md:text-4xl lg:text-5xl font-medium leading-none mt-0">{{ $page.blog.title}}</h1>
+          <div class="text-xl md:text-2xl pt-4 pb-10 blogpost-excerpt mt-3 font-serif" v-html="$page.blog.excerpt"></div>
         </section>
         <section class="post-author-list mb-10 mx-0">
           <div class="flex items-center">
@@ -52,7 +52,7 @@
 
       <div class="lg:mx-32 md:mx-16 px-4 sm:px-0">
         <section class="post-content container mx-auto relative font-serif text-gray-700">
-          <div class="post-content-text text-xl" v-html="$page.blog.content"></div>
+          <div class="post-content-text text-sm sm:text-lg md:text-xl" v-html="$page.blog.content"></div>
         </section>
 
         <section class="post-tags container mx-auto relative py-10">
