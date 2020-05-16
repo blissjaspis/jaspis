@@ -4,7 +4,7 @@ tags: elixir
 category: Elixir
 created: 2018-08-29
 image: ./images/josh-spires-dronenr-sQalFlXIsLs-unsplash.jpg
-image_caption: Photo by Josh Spires on Unsplash
+image_caption: Fungsi Anonymous Pada Elixir
 author: author1
 ---
 

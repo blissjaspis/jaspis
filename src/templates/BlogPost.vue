@@ -3,10 +3,10 @@
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden pt-24">
       <div class="lg:mx-32 md:mx-16 sm:mx-8 mx-4 pt-8">
         <section class="post-header container mx-auto px-0 mb-4 border-b">
-          <span class="text-blue-500 font-medium uppercase tracking-wide text-sm">
+          <span class="font-medium uppercase tracking-wide text-sm">
             <g-link
               :to="$page.blog.category.path"
-              class="hover:underline"
+              class="text-blue-800 hover:text-blue-500 hover:underline"
             >{{ $page.blog.category.title }}</g-link>
           </span>
           <h1 class="text-5xl font-medium leading-none mt-0">{{ $page.blog.title}}</h1>
@@ -48,7 +48,7 @@
       </div>
 
       <section v-if="$page.blog.image" class="post-image mx-auto w-full">
-        <g-image :src="$page.blog.image"></g-image>
+        <g-image :src="$page.blog.image" :alt="$page.blog.image_caption"></g-image>
       </section>
 
       <div class="lg:mx-32 md:mx-16 px-4 sm:px-0">

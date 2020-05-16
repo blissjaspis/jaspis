@@ -5,7 +5,7 @@
     </g-link>
     <div class="post-card-content">
       <g-link :to="record.path">
-        <p class="uppercase font-medium text-xs text-blue-700 mt-3">{{ record.category.title }}</p>
+        <p class="uppercase font-medium text-xs text-blue-800 mt-3 hover:text-blue-500">{{ record.category.title }}</p>
         <h2 class="post-card-title mt-0">
           {{ record.title }}
         </h2>

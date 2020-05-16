@@ -5,7 +5,7 @@ category: Git
 excerpt: Karena keamanan adalah hal nomor satu
 created: 2018-08-28
 image: ./images/josh-spires-dronenr-sQalFlXIsLs-unsplash.jpg
-image_caption: Photo by Josh Spires on Unsplash
+image_caption: Perumpamaan Keamanan .git Repositori Yang Terakses Publik
 author: author1
 ---
 

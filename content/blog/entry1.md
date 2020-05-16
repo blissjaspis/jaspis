@@ -5,7 +5,7 @@ category: Laravel
 excerpt: Tarik data random menjadi lebih mudah
 created: 2018-07-12
 image: ./images/josh-spires-dronenr-sQalFlXIsLs-unsplash.jpg
-image_caption: Photo by Josh Spires on Unsplash
+image_caption: Mengambil Random Data Dari Database Menggunakan Eloquent
 author: author1
 ---
 

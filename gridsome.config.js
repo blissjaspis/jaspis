@@ -59,7 +59,7 @@ module.exports = {
           externalLinksTarget: '_blank',
           externalLinksRel: ['noopener', 'noreferrer'],
           plugins: [
-            '@gridsome/remark-prismjs'
+            // '@gridsome/remark-prismjs'
           ],
         }
       }
@@ -68,12 +68,12 @@ module.exports = {
   transformers: {
     remark: {
       plugins: [
-        '@noxify/gridsome-remark-table-align',
-        ['@noxify/gridsome-remark-classes', {
-          'table': 'table table-striped',
-          'tableCell[align=center]': 'text-center',
-          'tableCell[align=right]': 'text-right'
-        }]
+        // '@noxify/gridsome-remark-table-align',
+        // ['@noxify/gridsome-remark-classes', {
+        //   'table': 'table table-striped',
+        //   'tableCell[align=center]': 'text-center',
+        //   'tableCell[align=right]': 'text-right'
+        // }]
       ]
     }
   },
