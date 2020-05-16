@@ -1,7 +1,7 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
-    <div class="container sm:pxi-0 mx-auto overflow-x-hidden pt-24">
-      <div class="lg:mx-32 md:mx-16 sm:mx-8 mx-4 pt-8">
+    <div class="container sm:pxi-0 mx-auto overflow-x-hidden md:pt-24 pt-20">
+      <div class="lg:mx-32 md:mx-16 sm:mx-8 mx-4 md:pt-8 pt-2">
         <section class="post-header container mx-auto px-0 mb-4 border-b">
           <span class="font-medium uppercase tracking-wide text-xs sm:text-sm">
             <g-link :to="$page.blog.category.path" class="post-card-category hover:underline"
@@ -52,7 +52,7 @@
 
       <div class="lg:mx-32 md:mx-16 px-4 sm:px-0">
         <section class="post-content container mx-auto relative font-serif text-gray-700">
-          <div class="post-content-text text-sm sm:text-lg md:text-xl" v-html="$page.blog.content"></div>
+          <div class="post-content-text text-lg md:text-xl" v-html="$page.blog.content"></div>
         </section>
 
         <section class="post-tags container mx-auto relative py-10">
