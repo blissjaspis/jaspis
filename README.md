@@ -1,3 +1,3 @@
 # Pendahuluan
 
-Repository websites jaspis.me
+Repository website jaspis.me
