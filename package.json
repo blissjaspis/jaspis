@@ -17,7 +17,7 @@
     "gridsome-plugin-tailwindcss": "^2.2.47",
     "gridsome-source-static-meta": "github:noxify/gridsome-source-static-meta#master",
     "lodash": "^4.17.15",
-    "node-sass": "^4.14.0",
+    "node-sass": "^7.0.0",
     "pluralize": "^8.0.0",
     "sass-loader": "^8.0.2",
     "tailwindcss": "^1.4.6",
